@@ -1,0 +1,347 @@
+    /*
+    Author: Ajala AbdulSamii Olalekan
+    Email: kgasta@gmail.com
+    Github: github.com/jalasem
+    Note: I have written some custom css here to help you through your design
+*/
+
+    * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    nav>.container {
+        width: 95%;
+    }
+    /*font size adjustments
+    in your html you can use them for icons and text
+    e.g <i class="icon ion-social-facebook x15"></i> to adjut the font-size of the icon to 1.5rem
+*/
+
+    .x1 {
+        font-size: 1rem;
+    }
+
+    .x15 {
+        font-size: 1.5rem;
+    }
+
+    .x2 {
+        font-size: 2rem;
+    }
+
+    .x25 {
+        font-size: 2.5rem;
+    }
+
+    .x3 {
+        font-size: 3rem;
+    }
+
+    .x35 {
+        font-size: 3.5rem;
+    }
+
+    .x4 {
+        font-size: 4rem;
+    }
+
+    .x45 {
+        font-size: 4.5rem;
+    }
+
+    .x5 {
+        font-size: 5rem;
+    }
+
+    .x55 {
+        font-size: 5.5rem;
+    }
+
+    ul.social i.icon {
+        margin-right: 1rem;
+    }
+
+    nav a.brand-logo {
+        font-size: 1.9rem;
+    }
+
+    nav li a {
+        font-size: 1.3rem;
+    }
+
+    nav li a.btn {
+        font-size: 1.1rem;
+    }
+
+    nav ul li a,
+    nav a.brand-logo {
+        color: #0097a7 !important;
+    }
+
+    nav li a.btn {
+        color: white !important;
+    }
+
+    #banner {
+        min-height: calc(85vh - 64px);
+        background-image: url(../images/expert_geek_coder.png), url(../images/curious_learner.png);
+        background-size: 35%, 35%;
+        background-position: center left, center right;
+        background-repeat: no-repeat;
+    }
+
+    #banner .overlay {
+        background: rgba(0, 0, 0, 0.23);
+        height: calc(100vh - 64px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    /*#banner p.flow-text {
+    line-height: 150%;
+    text-shadow: 0px 1px 2px #673AB7;
+}*/
+
+    #banner p.flow-text {
+        line-height: 100%;
+        text-shadow: rgba(3, 3, 3, 0.75) 2px 3px 4px;
+        font-weight: 300;
+        font-size: 2.2rem;
+    }
+
+    #banner h1 {
+        text-shadow: rgba(3, 3, 3, 0.75) 2px 3px 4px;
+        font-weight: 600;
+        font-size: 3.5rem;
+        margin: 0px;
+    }
+
+    #banner button.call--to-action {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 1.875rem;
+        font-weight: 600;
+        border: 2.5px solid rgb(255, 255, 255);
+        border-image: initial;
+        padding: 0rem 2.5rem 0.3rem;
+        transition: all 0.6s;
+        height: initial;
+        text-transform: capitalize;
+    }
+
+    #banner .bottom {
+        position: absolute;
+        width: 3.5rem;
+        height: 3.5rem;
+        background-color: beige;
+        bottom: 2rem;
+        right: 47.5%;
+        left: 47.5%;
+        border-radius: 50%;
+    }
+
+    #banner .bottom i {}
+
+    #details {
+        padding: 6% 0;
+    }
+
+    .row {
+        margin-bottom: 0;
+    }
+
+    #questions .col.s12.withtext {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 25rem;
+    }
+    /*.cool-blue {
+    background: linear-gradient(#4aa5cc, white) !important;
+    color: white;
+}*/
+
+    #questions .col.s12.withtext {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 25rem;
+        background: #eee;
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+
+    #questions .col.s12.withtext p.flow-text {
+        font-size: 3rem;
+    }
+
+    #questions .col.s12.withpic {
+        height: 25rem;
+    }
+
+    #questions .col.s12.withpic.using_it {
+        background: url(../images/kids_using_IT.jpg);
+        background-size: cover;
+    }
+
+    #questions .col.s12.withpic.curious {
+        background: url(../images/curious-kid-wide.jpg);
+        background-size: cover;
+    }
+
+    #questions .col.s12.happy {
+        background: url(../images/codeSquad.png);
+        background-size: cover;
+        height: 25rem;
+    }
+
+    #more ul.list li,
+    #more ul p {
+        list-style-type: circle;
+        margin-left: 4%;
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+
+    #more ul p {
+        font-weight: 300;
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        text-decoration: underline;
+    }
+
+    #more .col {
+        padding: 4% 5% 5%;
+        min-height: 30rem;
+    }
+
+    #more .col.s12:nth-child(2) p.flow-text {
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+
+    footer .container {
+        width: 90%;
+    }
+
+    .footer-copyright.teal.darken-4 {
+        background: #00332b !important;
+    }
+
+    .popup .popup-overlay {
+        height: 100vh;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.75);
+        overflow-y: auto;
+        top: 0;
+        right: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .popup .popup-header {
+        padding: 0.5rem 1.5rem;
+        background: #F57C00;
+        color: white;
+        font-size: 1.9rem;
+    }
+
+    .popup .popup-content {
+        padding: 0.5rem 1rem 1rem;
+        margin-bottom: 0;
+    }
+
+    .popup .card-panel,
+    .popup .card {
+        border: 1px solid rgba(158, 158, 158, 0.75);
+    }
+
+    .popup .card-panel:hover,
+    .popup .card:hover {
+        border: 0px solid;
+    }
+
+    .popup .popup-body {
+        position: fixed;
+        top: 64px;
+        right: 0;
+        left: 0;
+        z-index: 1100;
+    }
+
+    .popup-body .close-area {
+        height: calc(90vh - 100px);
+        width: 100%;
+        background: rgba(128, 128, 128, 0);
+        position: absolute;
+    }
+
+    .popup-header .close-btn {
+        position: absolute;
+        top: 0rem;
+        right: 0rem;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+    }
+
+    .popup .card-panel.hoverable {
+        cursor: pointer;
+        min-height: 20rem;
+    }
+
+    .popup .parent_icon {
+        background: url(../images/parent_icon.png);
+        width: 6rem;
+        height: 6rem;
+        margin: auto;
+        background-color: #FFECB3;
+        background-size: cover;
+        border-radius: 50%;
+    }
+
+    .popup .teacher_icon {
+        background: url(../images/teacher_icon.png);
+        width: 6rem;
+        height: 6rem;
+        margin: auto;
+        background-color: #FFECB3;
+        background-size: cover;
+        border-radius: 50%;
+    }
+
+    .popup .kid_icon {
+        background: url(../images/boy_icon.png);
+        width: 6rem;
+        height: 6rem;
+        margin: auto;
+        background-color: #FFECB3;
+        background-size: cover;
+        border-radius: 50%;
+    }
+
+    .popup .card-panel p,
+    .popup .card p {
+        font-size: 1.2rem;
+    }
+
+    #student-login {
+        height: 100vh;
+    }
+
+    @media (min-width: 992px) {
+        #details .container {
+            width: 80%;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .parent_icon,
+        .kid_icon,
+        .teacher_icon {
+            display: none;
+        }
+        .popup .card-panel.hoverable {
+            cursor: pointer;
+            min-height: auto;
+        }
+    }
